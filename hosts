@@ -1,0 +1,9 @@
+[masters]
+master ansible_host=192.168.0.201 ansible_user=sunrays
+
+[workers]
+worker1 ansible_host=192.168.0.202 ansible_user=sunrays
+worker2 ansible_host=192.168.0.203 ansible_user=sunrays
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
